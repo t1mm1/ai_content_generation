@@ -94,7 +94,6 @@ class AIService {
    * @return array
    */
   public function prepare(array $data): array {
-    $data['prompt'] .= 'Write me an article as text only in 2000 characters for any theme strong HTML, without MD. Use the tags p, h2, h3, h4, ul, li for text formatting.';
     $data['fields'] = [
       'body' => $data['prompt'],
       'title' => 'Give me a title without quotes for this article',
