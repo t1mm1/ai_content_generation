@@ -1,0 +1,15 @@
+ai_content_generation:
+  path: '/admin/config/content/ai-content-generation'
+  defaults:
+    _title: 'AI content generation'
+    _form: 'Drupal\ai_content_generation\Form\BatchForm'
+  requirements:
+    _permission: 'access content'
+
+ai_content_generation.settings_form:
+  path: '/admin/config/content/ai-content-generation/settings'
+  defaults:
+    _title: 'AI content generation settings'
+    _form: 'Drupal\ai_content_generation\Form\SettingsForm'
+  requirements:
+    _permission: 'access content'

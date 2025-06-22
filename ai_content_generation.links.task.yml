@@ -1,0 +1,9 @@
+ai_content_generation:
+  title: Generate
+  route_name: ai_content_generation
+  base_route: ai_content_generation
+
+ai_content_generation.settings_form:
+  title: Settings
+  route_name: ai_content_generation.settings_form
+  base_route: ai_content_generation

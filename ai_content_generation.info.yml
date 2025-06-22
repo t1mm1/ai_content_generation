@@ -1,0 +1,9 @@
+name: 'AI Content Generation'
+type: module
+description: 'Generation of default Article content type.'
+core_version_requirement: ^11
+package: AI
+configure: ai_content_generation.settings_form
+dependencies:
+  - drupal:node
+  - ai:ai

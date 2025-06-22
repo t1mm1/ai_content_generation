@@ -1,0 +1,9 @@
+role: >1
+  You are a helpful accessibility expert and writer.
+prompt: >1
+  Write me an article as text only in {{ symbols }} characters.
+  Use strong HTML, without MD.
+  Use the tags p, h2, h3, h4, ul, li for text formatting.
+  Use theme for article: {{ topic }}.
+  Use language {{ language }}
+model: ''

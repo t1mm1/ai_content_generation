@@ -1,0 +1,12 @@
+ai_content_generation:
+  title: 'AI content generation'
+  parent: system.admin_config_content
+  description: 'Generation basic content via AI.'
+  route_name: ai_content_generation
+  weight: -999
+
+ai_content_generation.settings_form:
+  title: 'AI content generation settings'
+  parent: ai_content_generation
+  description: 'Settings form of generation basic content via AI.'
+  route_name: ai_content_generation.settings_form

@@ -1,0 +1,15 @@
+services:
+  ai_content_generation.ai:
+    class: Drupal\ai_content_generation\AIService
+    arguments:
+      - '@ai.provider'
+  ai_content_generation.entity:
+    class: Drupal\ai_content_generation\EntityService
+    arguments:
+      - '@current_user'
+  ai_content_generation.batch:
+    class: Drupal\ai_content_generation\BatchService
+    arguments:
+      - '@messenger'
+      - '@ai_content_generation.ai'
+      - '@ai_content_generation.entity'
